@@ -11,7 +11,7 @@
 @media (min-width: 320px) and (max-width: 575px){
 
     body{
-        background: url(../assets/img/2\(1\).png);
+        background: url(../assets/img/fondo-contacto.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -114,7 +114,7 @@
 @media (min-width: 576px) and (max-width: 767px){
 
     body{
-        background: url(../assets/img/2\(1\).png);
+        background: url(../assets/img/fondo-contacto.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -217,7 +217,7 @@
 @media (min-width: 768px) and (max-width: 991px){
 
         body{
-            background: url(../assets/img/2\(1\).png);
+            background: url(../assets/img/fondo-contacto.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -321,7 +321,7 @@
 @media (min-width: 992px){
 
         body{
-            background: url(../assets/img/2\(1\).png);
+            background: url(../assets/img/fondo-contacto.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -424,7 +424,7 @@
 @media (min-width: 1024px){
 
         body{
-            background: url(../assets/img/2\(1\).png);
+            background: url(../assets/img/fondo-contacto.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -527,7 +527,7 @@
     @media (min-width: 1200px){
 
         body{
-            background: url(../assets/img/Diseño\ sin\ título2.gif);
+            background: url(../assets/img/fondo-contacto.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover ;
@@ -631,10 +631,10 @@
     @media (min-width: 1900px){
 
         body{
-            background: url(../assets/img/Diseño\ sin\ título2.gif);
+            background: url(../assets/img/fondo-contacto.jpg);
             background-repeat: no-repeat;
             background-position: center;
-            background-size: cover;
+            background-size: contain;
             background-color: black;
             
         }

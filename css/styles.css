@@ -10296,6 +10296,7 @@ footer.footer .social-link {
 .contenedor-copyright{
   background-color: #04414d;
   text-align: center;
+  
 }
 
 .icon-screen-smartphone, .icon-pencil, .fa-server, .fa-expeditedssl{
@@ -10395,25 +10396,15 @@ footer.footer .social-link {
   align-items: center;
 }
 
-.superior, .inferior{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-
-  
-}
 
 }
   @media (min-width: 576px) and (max-width: 767px) {
-    
     .carousel-inner{
-      height: 40vh;
+      height: 60vh;
     }
     .carousel-item img{
-      height: 40vh;
+      height: 60vh;
     }
-
     footer{
       display: flex;
       flex-direction: column;
@@ -10425,31 +10416,29 @@ footer.footer .social-link {
     }
     
     footer .h2 h2{
-      color: white;
-      font-size: 1.7em;
+      color: #206976 !important;
+      font-size: 1.4em;
       text-align: center;
     }
     .container-contacto{
       display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
-      max-width: 100%;
+      
+      flex-direction: column;
+     
     }
     .social-media{
       display: flex;
       justify-content: center;
-      flex-direction: row;
-      
+      flex-direction: column;
       
     }
     
     .contacto{
       display: flex;
-      
+      justify-content: center;
       flex-direction: column;
       align-items:center;
-      margin: 10px;
+      margin: 0px;
     }
     .contacto i, h6{
       color: rgb(255, 255, 255);
@@ -10463,11 +10452,11 @@ footer.footer .social-link {
       color: #2F4858;
     }
     .contacto h6{
-      margin-left: 0px;
+      margin-left: 1px;
     }
     
     
-    footer .contenedor-copyright p{
+  footer .contenedor-copyright p{
       color: white;
       text-align: center;
       font-size: 1em;
@@ -10476,15 +10465,7 @@ footer.footer .social-link {
   } 
   .icono-footer{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .superior, .inferior{
-    display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
     
   }
   
@@ -10507,8 +10488,8 @@ footer.footer .social-link {
   }
   
   footer .h2 h2{
-    color: white;
-    font-size: 1.7em;
+    color: #206976 !important;
+    font-size: 1.4em;
     text-align: center;
   }
   .container-contacto{
@@ -10549,7 +10530,7 @@ footer.footer .social-link {
   }
   
   
-  footer .contenedor-copyright p{
+footer .contenedor-copyright p{
     color: white;
     text-align: center;
     font-size: 1em;
@@ -10560,14 +10541,6 @@ footer.footer .social-link {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.superior, .inferior{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  
 }
 
 }
@@ -10589,7 +10562,7 @@ footer.footer .social-link {
   }
   
   footer .h2 h2{
-    color: white;
+    color: #206976 !important;
     font-size: 1.7em;
     text-align: center;
   }
@@ -10597,13 +10570,13 @@ footer.footer .social-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     max-width: 100%;
   }
   .social-media{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding-right: 3%;
     
   }
@@ -10611,7 +10584,7 @@ footer.footer .social-link {
   .contacto{
     display: flex;
     
-    flex-direction: row;
+    flex-direction: column;
     align-items:center;
     margin: 10px;
   }
@@ -10664,7 +10637,7 @@ footer.footer .social-link {
   footer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     background-color: #DDD369;
     box-sizing: border-box;
     text-align: center;
@@ -10672,31 +10645,27 @@ footer.footer .social-link {
   }
   
   footer .h2 h2{
-    color: white;
+    color: #206976 !important;
     font-size: 1.7em;
     text-align: center;
   }
   .container-contacto{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    max-width: 100%;
+    flex-direction: row;
+    
   }
   .social-media{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    padding-right: 3%;
+    flex-direction: row;
     
   }
   
   .contacto{
     display: flex;
+    flex-direction: column;
     
-    flex-direction: row;
-    align-items:center;
-    margin: 10px;
   }
   .contacto i, h6{
     color: rgb(255, 255, 255);
@@ -10710,40 +10679,17 @@ footer.footer .social-link {
     color: #2F4858;
   }
   .contacto h6{
-    margin-left: 15px;
+    margin-left: 1px;
   }
   
   
-  footer .contenedor-copyright p{
-    color: white;
-    text-align: center;
-    font-size: 1em;
-    margin-top: 3%;
-    padding-top: 3%;
-} 
+ 
 .icono-footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.superior, .inferior{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-}
-
-.inferior{
-  margin-left: 1.5%; 
-}
-
-footer h2{
-  font-size: 2.1em;
-  margin: 1%;
-  margin-bottom: 3%;
-}
 }
 
 @media (min-width: 1200px){
@@ -10766,8 +10712,8 @@ footer h2{
   }
   
   footer .h2 h2{
-    color: white;
-    font-size: 1.7em;
+    color: #206976 !important;
+    font-size: 1.4em;
     text-align: center;
   }
   .container-contacto{
@@ -10780,7 +10726,7 @@ footer h2{
   .social-media{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding-right: 3%;
     
   }
@@ -10788,7 +10734,7 @@ footer h2{
   .contacto{
     display: flex;
     
-    flex-direction: row;
+    flex-direction: column;
     align-items:center;
     margin: 10px;
   }
@@ -10820,28 +10766,9 @@ footer h2{
   justify-content: space-around;
   align-items: center;
 }
-
-.superior, .inferior{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
 }
+@media (min-width: 1900px){
 
-.inferior{
-  margin-left: 1.5%; 
-}
-
-footer h2{
-  font-size: 2.1em;
-  margin: 1%;
-  margin-bottom: 3%;
-}
-
-}
-@media (min-width: 1440px){
-  
   .carousel-inner{
     height: 80vh;
   }
@@ -10860,15 +10787,15 @@ footer h2{
   }
   
   footer .h2 h2{
-    color: white;
-    font-size: 1.7em;
+    color: #206976 !important;
+    font-size: 1.4em;
     text-align: center;
   }
   .container-contacto{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 100%;
   }
   .social-media{
@@ -10882,7 +10809,7 @@ footer h2{
   .contacto{
     display: flex;
     
-    flex-direction: row;
+    flex-direction: column;
     align-items:center;
     margin: 10px;
   }
@@ -10914,24 +10841,4 @@ footer h2{
   justify-content: space-around;
   align-items: center;
 }
-
-.superior, .inferior{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
 }
-
-.inferior{
-  margin-left: 1.5%; 
-}
-
-footer h2{
-  font-size: 2.1em;
-  margin: 1%;
-  margin-bottom: 3%;
-}
-
-}
-
